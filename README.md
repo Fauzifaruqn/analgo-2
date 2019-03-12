@@ -30,7 +30,7 @@ Base Case
 - xi > maks, => n kali
 
 Worst Case
-c.Operasi Perbandingan
+d.Operasi Perbandingan
 - xi > maks, => n kali
 
 - T(min)= t_1+ t_2+ t_3=1+n+n-1+n=3n
