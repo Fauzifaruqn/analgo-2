@@ -1,7 +1,7 @@
 1. Jawaban Studi Kasus 1.
 a. Operasi Pengisian Nilai (Assignment)
 
-- Base Case
+Base Case
 maks <- x1 => 1 kali
 i <- 2 => 1 kali
 i <- i+1 => n – 1 kali
@@ -9,7 +9,7 @@ maks <- xi => 0 kali
 
 T1min = 1 + 1 + n - 1 + 0 = 1 + n
 
-- Worst Case
+Worst Case
 maks <- x1, =>1 kali
 i <- 2 , => 1 kali
 i <- i+1, =>n – 1 kali
@@ -22,15 +22,15 @@ b. Operasi Penjumlahan
 i + 1 , => n – 1 kali
 T2min = n - 1
 
--Worst Case
+Worst Case
 i + 1 , => n – 1 kali
 T2min = n - 1
 
 c. Operasi Perbandingan
--Base Case
+Base Case
 xi > maks, => n kali
 
-- Worst Case
+Worst Case
 c.Operasi Perbandingan
 xi > maks, => n kali
 
