@@ -2,7 +2,7 @@
 a. Operasi Pengisian Nilai (Assignment)
 
 Base Case
-maks <- x1 => 1 kali
+. maks <- x1 => 1 kali
 i <- 2 => 1 kali
 i <- i+1 => n – 1 kali
 maks <- xi => 0 kali
