@@ -38,3 +38,63 @@ d.Operasi Perbandingan
 - T(min)= t_1+ t_2+ t_3=1+n+n-1+n=3n
 - T(max)= t_1+ t_2+ t_3=1+2n+n-1+n=4n
 
+=============================================================
+
+2. Jawaban Studi Kasus 2.
+
+a. Operasi Pengisian Nilai (Assignment)
+
+Base Case
+- i <- 1 => 	1 kali
+- found <- false => 1 kali
+- found = true => 1 kali
+- i <- i + 1 => 0 kali
+- idx <- i => 1 kali
+- idx <- 0 => 0 kali
+
+T1min = 1 + 1 + 1 + 0 + 1 + 0 = 4
+
+Worst Case
+- i <- 1 => 	1 kali
+- found <- false => 1 kali
+- found = true => 1 kali
+- i <- i + 1 => n - 1 kali
+- idx <- i => 1 kali
+- idx <- 0 => 0 kali
+
+
+T1min = 1 + 1 + 1 + n - 1 + 1 + 0 = 3 + n
+
+
+
+b. Operasi Penjumlahan
+Base Case
+- i + 1 = 0 kali
+
+T2min = 0
+
+Worst Case
+- i + 1 = n - 1 kali
+
+T2min = n - 1
+
+
+c. Operasi Perbandingan
+Base Case
+- xi == y  => 1 kali
+- found == true => 1 kali
+
+T3min = 1 + 1 = 2
+
+Worst Case
+- xi ==  y  => n kali
+- found == true => 1 kali
+
+T3min = n + 1
+
+
+- T(min)= t_1+ t_2+ t_3= 4 + 0 + 2 = 6
+- T(max)= t_1+ t_2+ t_3= 3 + n + n - 1 + n + 1 = 3n + 3
+
+
+
