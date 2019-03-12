@@ -30,6 +30,7 @@ Base Case
 - xi > maks, => n kali
 
 Worst Case
+
 d.Operasi Perbandingan
 - xi > maks, => n kali
 
