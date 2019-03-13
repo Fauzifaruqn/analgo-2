@@ -96,5 +96,66 @@ T3min = n + 1
 - T(min)= t_1+ t_2+ t_3= 4 + 0 + 2 = 6
 - T(max)= t_1+ t_2+ t_3= 3 + n + n - 1 + n + 1 = 3n + 3
 
+==================================================================
+
+3. Jawaban Studi Kasus 3
+
+Pengisian nilai:
+
+i = 1	1 kali
+j = (sizeof(numArray)/sizeof(*numArray))	1 kali
+found = false	1 kali
+mid = (i + j) / 2
+best case	1 kali worst case
+
+found = true
+best case	1 kali worst case
+
+i = mid + 1
+best case	0 kali worst case
+
+j = mid - 1
+best case	0 kali worst case
+
+idx = mid
+best case	1 kali worst case
+
+idx = 0
+best case	0 kali worst case
+
+Penjumlahan:
+
+(i + j)
+best case	1 kali worst case
+
+mid + 1
+best case	0 kali worst case
+
+Pengurangan:
+
+mid - 1
+best case	0 kali worst case
+
+Pembagian:
+
+(i + j) / 2
+best case	1 kali worst case
+
+Perbandingan:
+
+numArray[mid] == y
+best case	1 kali worst case
+
+numArray[mid] < y
+best case	0 kali worst case
+
+found == true
+best case	1 kali worst case
+
+Total:
+
+Tmin(n) =
+Tmax(n) =
+
 
 
